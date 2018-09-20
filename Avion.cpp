@@ -8,7 +8,7 @@ CAvion::CAvion() :CNave()
 	y = 10;
 	ancho = 11;
 	alto = 3;
-	color = 10;
+	color = 13;
 
 }
 

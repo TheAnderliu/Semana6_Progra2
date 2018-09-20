@@ -12,6 +12,7 @@
 #include "Nave.h"
 #include "Avioneta.h"
 #include"Avion.h"
+#include "Manejador.h"
 
 using namespace System;
 using namespace std;

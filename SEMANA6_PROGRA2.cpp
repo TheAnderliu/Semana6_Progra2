@@ -2,18 +2,28 @@
 
 #include "stdafx.h"
 
+int Menu() {
+	int opc;
+	cout << "1. Avioneta" << endl;
 
+	cout << "2. Avion" << endl;
+
+	cout << "Ingrese opcion: " << endl;
+
+	cin >> opc;
+	return opc;
+}
 
 int main()
 {
-	CAvioneta * obj1 = new CAvioneta(5,20);
-	CAvion* obj2 = new CAvion();
+	CManejador * objman = new CManejador();
+	int opc = Menu();
 	while (1)
 	{
-		obj1->Mostrar(); obj2->Mostrar();
+		objman->Mostrar(opc);
 		_sleep(50);
-		obj1->Borrar(); obj2->Borrar();
-		obj1->Mover(); obj2->Mover();
+		objman->Borrar(opc);
+		objman->Mover(opc);
 
 
 	}

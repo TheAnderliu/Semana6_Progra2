@@ -139,6 +139,7 @@
   <ItemGroup>
     <ClInclude Include="Avion.h" />
     <ClInclude Include="Avioneta.h" />
+    <ClInclude Include="Manejador.h" />
     <ClInclude Include="Nave.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
@@ -150,6 +151,7 @@
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="Avion.cpp" />
     <ClCompile Include="Avioneta.cpp" />
+    <ClCompile Include="Manejador.cpp" />
     <ClCompile Include="Nave.cpp" />
     <ClCompile Include="SEMANA6_PROGRA2.cpp" />
     <ClCompile Include="stdafx.cpp">

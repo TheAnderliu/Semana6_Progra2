@@ -33,6 +33,9 @@
     <ClInclude Include="Avion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Manejador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="app.rc">
@@ -56,6 +59,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Avion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manejador.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
